@@ -2,20 +2,20 @@
 
 # Hi, I'm Saifullah 👋
 
-I'm an aspiring AI engineer passionate about robotics, machine learning, deep learning, and data science. I’m constantly expanding my skills and working on innovative projects that combine these fields, intending to build intelligent systems and solve real-world problems.
+I'm an aspiring Robotics and advanced AI engineer passionate about robotics, machine learning, deep learning, and IoT. I’m constantly expanding my skills and working on innovative projects that combine these fields, intending to build intelligent systems and solve real-world problems.
 
 ## About Me
 
-- 🔭 **Current Focus:** Learning and applying ML, DL, SQL, and data science techniques.
-- 🤖 **Passionate About:** Robotics, automation, and integrating AI into hardware solutions.
-- 🌍 **Career Goals:** Seeking roles in Bangladesh and internationally. I want to be a Robotic and AI Engineer.
+- 🔭 **Current Focus:** Learning and applying ML, DL, SQL, and IoT.
+- 🤖 **Passionate About:** Robotics, automation, and integrating AI into IoT/Hardware solutions.
+- 🌍 **Career Goals:** Seeking roles in Bangladesh and internationally. I want to be a Robotic and advanced AI Engineer.
 - 📚 **Lifelong Learner:** Always eager to collaborate on open-source projects and explore new technologies.
 
 ## Skills
 
 ### Programming Languages
-- **Proficient in:** Python, Java, C  
-- **Familiar with:** Assembly Language, MATLAB, Bash, HTML, CSS, SQL
+- **Proficient in:** Python, C , java 
+- **Familiar with:** Assembly Language, Bash, SQL 
 
 ### Technical Skills
 - Embedded Systems Development  
@@ -63,7 +63,7 @@ I'm an aspiring AI engineer passionate about robotics, machine learning, deep le
 - Python for Data Science, AI & Development (IBM) – Coursera  
 - Supervised Machine Learning: Regression and Classification (Stanford Online)  
 - Getting Started with Azure IoT Hub – Coursera Project Network  
-- Short Course on Data Science by Dr. Jennifer Widom, Stanford University
+- Short Course on Data Science by Dr Jennifer Widom, Stanford University
 
 ## Get in Touch
 
