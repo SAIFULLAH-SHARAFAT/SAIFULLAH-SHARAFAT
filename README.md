@@ -6,8 +6,8 @@ I'm an aspiring Robotics and advanced AI engineer passionate about robotics, mac
 
 ## About Me
 
-- 🔭 **Current Focus:** Learning and applying ML, DL, SQL, and IoT.
-- 🤖 **Passionate About:** Robotics, automation, and integrating AI into IoT/Hardware solutions.
+- 🔭 **Current Focus:** Learning and applying ML, DL, Mathematics, and Robotics.
+- 🤖 **Passionate About:** Robotics, automation, and integrating AI into IoT/Edge Device.
 - 🌍 **Career Goals:** Seeking roles in Bangladesh and internationally. I want to be a Robotic and advanced AI Engineer.
 - 📚 **Lifelong Learner:** Always eager to collaborate on open-source projects and explore new technologies.
 
