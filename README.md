@@ -124,8 +124,14 @@ North South University *(2024–2025)*
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SAIFULLAH-SHARAFAT&show_icons=true&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAIFULLAH-SHARAFAT&layout=compact&hide_border=true" height="160"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=SAIFULLAH-SHARAFAT&show_icons=true&count_private=true&include_all_commits=true&theme=default&hide_border=true"
+    height="160"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAIFULLAH-SHARAFAT&layout=compact&theme=default&hide_border=true"
+    height="160"
+  />
 </p>
 
 ---
