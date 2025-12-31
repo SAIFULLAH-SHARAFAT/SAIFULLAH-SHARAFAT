@@ -46,7 +46,6 @@ My research emphasizes **practical, data-efficient, and deployable AI**, with a 
 **PLOS ONE — January(2026)**  
 - Proposed a self-supervised attention-based framework combining CNNs and Vision Transformers  
 - Focused on robustness, generalization, and deployment feasibility  
-- Accepted with **no further scientific revisions**  
 
 🔗 Code Repository:  
 https://github.com/SAIFULLAH-SHARAFAT/A-Self-Supervised-Deep-Learning-Framework-for-Malabar-Spinach-Leaf-Disease-Classification  
