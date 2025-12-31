@@ -137,7 +137,6 @@ North South University *(2024–2025)*
 
 **Bachelor of Science in Computer Science and Engineering (CSE)**  
 North South University, Dhaka — **2025**  
-CGPA: **3.04 / 4.00**
 
 ---
 
