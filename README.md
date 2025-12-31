@@ -1,79 +1,161 @@
-![Profile Views](https://komarev.com/ghpvc/?username=SAIFULLAH-SHARAFAT&color=green)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SAIFULLAH-SHARAFAT&color=brightgreen"/>
+</p>
 
-# Hi, I'm Saifullah 👋
+<h1 align="center">Md. Shaifullah Sharafat</h1>
 
-I'm an aspiring Robotics and advanced AI engineer passionate about robotics, machine learning, deep learning, and IoT. I’m constantly expanding my skills and working on innovative projects that combine these fields, intending to build intelligent systems and solve real-world problems.
+<p align="center">
+  <b>AI Researcher | Computer Vision | Self-Supervised Learning | IoT–AI Systems | Robotics Perception</b>
+</p>
 
-## About Me
-
-- 🔭 **Current Focus:** Learning and applying ML, DL, Mathematics, and Robotics.
-- 🤖 **Passionate About:** Robotics, automation, and integrating AI into IoT/Edge Device.
-- 🌍 **Career Goals:** Seeking roles in Bangladesh and internationally. I want to be a Robotic and advanced AI Engineer.
-- 📚 **Lifelong Learner:** Always eager to collaborate on open-source projects and explore new technologies.
-
-## Skills
-
-### Programming Languages
-- **Proficient in:** Python, C , java 
-- **Familiar with:** Assembly Language, Bash, SQL 
-
-### Technical Skills
-- Embedded Systems Development  
-- Basic Networking Protocols (TCP/IP, UDP, Ethernet)  
-- Microcontroller Programming (Arduino, ARM-based systems)  
-- IoT Systems and Data Analysis  
-- Machine Learning and Deep Learning  
-- Computer Vision
-
-### Tools and Technologies
-- **Software:** Arduino IDE, Git/GitHub, AutoCAD, Tableau, MATLAB, LaTeX (Overleaf)
-- **Operating Systems:** Linux (Kali, Raspberry Pi OS), Windows
-
-### Soft Skills
-- Critical Thinking and Problem-Solving  
-- Team Management and Collaboration  
-- Public Speaking and Effective Communication
-
-### Languages
-- **English:** Fluent (Reading, Writing, Speaking)  
-- **Bangla:** Native  
-- **Arabic:** Proficient (Reading)
-
-## Research Projects
-
-### AI-Powered IoT System  
-*This research paper was submitted to a journal.*  
-- **Description:** Real-time soil nutrient-based IoT integrated crop suggestions and field monitoring in Bangladesh using Machine Learning and Deep Learning on Raspberry Pi 5.  
-- **Technologies:** Python, TensorFlow, Raspbian, Linux, various Python libraries, weather APIs, ML/DL frameworks, Overleaf, LaTeX  
-- **Outcome:** Enhanced system accuracy and response time through advanced ML models.
-
-### Data-Driven Automation Project  
-*Planning to submit a journal.*  
-- **Description:** Advanced deep learning-based classification and detection of Malabar Spinach leaf diseases. Designed and implemented models for disease classification.  
-- **Technologies:** Python, Pandas, Matplotlib, advanced augmentations  
-- **Outcome:** Developed Spinach Res-SENet (a CNN-based model with residual networks and squeeze-and-excitation blocks) and SpinachViT (a Vision Transformer model using SimCLR).
-
-## Education
-
-- **B.Sc. Engineering (ECE with major in CSE)** – North South University, 2025
-
-### Certifications
-- Generative AI with Large Language Models (DeepLearning.AI & Amazon Web Services) – Coursera  
-- Crash Course on Python (Google) – Coursera  
-- Python for Data Science, AI & Development (IBM) – Coursera  
-- Supervised Machine Learning: Regression and Classification (Stanford Online)  
-- Getting Started with Azure IoT Hub – Coursera Project Network  
-- Short Course on Data Science by Dr Jennifer Widom, Stanford University
-
-## Get in Touch
-
-- **Email:** [shaifullah.sharafat@northsouth.edu](mailto:shaifullah.sharafat@northsouth.edu)  
-- **LinkedIn:** [linkedin.com/in/shaifullah-sharafat](https://www.linkedin.com/in/shaifullah-sharafat/)  
-- **GitHub:** [github.com/SAIFULLAH-SHARAFAT/SAIF](https://github.com/SAIFULLAH-SHARAFAT/SAIF)
-
-I’m always excited to connect with fellow tech enthusiasts, researchers, and industry professionals. If you’re interested in collaborating or have any questions, feel free to reach out!
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=Y1GviSYAAAAJ">Google Scholar</a> •
+  <a href="https://www.linkedin.com/in/shaifullah-sharafat/">LinkedIn</a> •
+  <a href="mailto:shaifullah.sharafat@northsouth.edu">Email</a>
+</p>
 
 ---
 
-*Let's build the future of intelligent systems together!*
+## About Me
 
+I am a **Computer Science and Engineering graduate** and **AI researcher** working at the intersection of  
+**Computer Vision, Self-Supervised Learning, Vision Transformers, IoT–AI systems, and emerging Robotics Perception**.
+
+My research emphasizes **practical, data-efficient, and deployable AI**, with a strong application focus on  
+**agriculture, edge intelligence, and real-world environments**.
+
+I am actively preparing for **research-oriented PhD / RA positions** as well as **advanced AI & robotics engineering roles** in industry.
+
+---
+
+## Research Interests
+
+- Computer Vision for Real-World & Agricultural Systems  
+- Self-Supervised & Contrastive Representation Learning  
+- Vision Transformers and Attention Mechanisms  
+- Robust and Efficient Deep Learning  
+- Edge AI and IoT–AI Integration  
+- Robotics Perception (visual sensing and learning)  
+- Sustainable and Deployable AI Systems  
+
+---
+
+## Publications
+
+### 📄 Peer-Reviewed Journal Articles
+
+#### **Towards Practical AI for Agriculture: A Self-Supervised Attention Framework for Spinach Leaf Disease Detection**  
+**PLOS ONE — Accepted (2025)**  
+- Proposed a self-supervised attention-based framework combining CNNs and Vision Transformers  
+- Focused on robustness, generalization, and deployment feasibility  
+- Accepted with **no further scientific revisions**  
+
+🔗 Code Repository:  
+https://github.com/SAIFULLAH-SHARAFAT/A-Self-Supervised-Deep-Learning-Framework-for-Malabar-Spinach-Leaf-Disease-Classification  
+
+---
+
+#### **An IoT-Enabled AI System for Real-Time Crop Prediction Using Soil and Weather Data**  
+**Smart Agricultural Technology — 2025**  
+- Designed an end-to-end IoT–ML pipeline for precision agriculture  
+- Integrated soil sensors, weather APIs, and ML/DL models on Raspberry Pi  
+- Emphasized real-time inference and field deployment  
+
+🔗 Code Repository:  
+https://github.com/SAIFULLAH-SHARAFAT/An-IoT-Enabled-AI-System-for-Real-Time-Crop-Prediction-Using-Soil-and-Weather-Data  
+
+> Code repositories are maintained to support **reproducibility** and align with my **Google Scholar publications**.
+
+---
+
+## Featured Research Repositories
+
+### 🔬 Self-Supervised Learning for Plant Disease Detection
+- SimSiam & SupCon-based pretraining  
+- Attention-enhanced CNNs (CBAM, SE)  
+- Vision Transformers (SwinV2, DeiT)  
+- Robustness, ablation, and calibration studies  
+
+---
+
+### 🌱 IoT–AI System for Precision Agriculture
+- Sensor-based data acquisition  
+- Real-time ML inference on edge devices  
+- End-to-end system deployment  
+- Practical field-oriented design  
+
+---
+
+## Research Experience
+
+**Deep Learning Researcher**  
+North South University & Bangladesh Agricultural University *(2025–Present)*  
+- Conducted research on self-supervised learning for agricultural vision tasks  
+- Designed reproducible pipelines for pretraining, fine-tuning, and benchmarking  
+- Evaluated CNN and Transformer models under distribution shifts  
+
+**Undergraduate Researcher**  
+North South University *(2024–2025)*  
+- Led the design of an IoT–AI system integrating sensing, learning, and deployment  
+- First author of a peer-reviewed journal publication  
+
+---
+
+## Technical Skills
+
+### Programming
+- Python, C/C++, Bash  
+- Working knowledge: Java, SQL  
+
+### Machine Learning & Vision
+- PyTorch, TensorFlow  
+- Self-Supervised Learning: SimSiam, SupCon  
+- Vision Transformers: SwinV2, DeiT  
+- CNNs: ResNet, ConvNeXt, CBAM, SE  
+- Robustness testing, ablation, calibration  
+
+### Embedded Systems & IoT
+- Raspberry Pi, ESP32, Arduino  
+- FreeRTOS  
+- UART, I2C, SPI  
+- Sensor integration & edge inference  
+
+### Tools & Platforms
+- Git/GitHub, Linux  
+- MATLAB, LaTeX (Overleaf), Tableau  
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SAIFULLAH-SHARAFAT&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAIFULLAH-SHARAFAT&layout=compact&hide_border=true&theme=tokyonight" height="160"/>
+</p>
+
+---
+
+## Education
+
+**Bachelor of Science in Computer Science and Engineering (CSE)**  
+North South University, Dhaka — **2025**  
+CGPA: **3.04 / 4.00**
+
+---
+
+## Languages
+
+- Bangla (Bengali): Native  
+- English: Professional Working Proficiency (TOEFL iBT: 90)  
+- Arabic: Reading Proficiency  
+
+---
+
+## Contact & Profiles
+
+- 📧 Email: shaifullah.sharafat@northsouth.edu  
+- 🔗 LinkedIn: https://www.linkedin.com/in/shaifullah-sharafat/  
+- 📚 Google Scholar: https://scholar.google.com/citations?user=Y1GviSYAAAAJ  
+- 💻 GitHub: https://github.com/SAIFULLAH-SHARAFAT  
+
+---
