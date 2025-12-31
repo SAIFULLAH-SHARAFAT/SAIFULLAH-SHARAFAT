@@ -146,7 +146,7 @@ North South University, Dhaka — **2025**
 ## Languages
 
 - Bangla (Bengali): Native  
-- English: Professional Working Proficiency (TOEFL iBT: 90)  
+- English: Professional Working Proficiency (TOEFL iBT certified)  
 - Arabic: Reading Proficiency  
 
 ---
