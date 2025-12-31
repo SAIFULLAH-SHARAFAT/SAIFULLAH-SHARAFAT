@@ -24,8 +24,6 @@ I am a **Computer Science and Engineering graduate** and **AI researcher** worki
 My research emphasizes **practical, data-efficient, and deployable AI**, with a strong application focus on  
 **agriculture, edge intelligence, and real-world environments**.
 
-I am actively preparing for **research-oriented PhD / RA positions** as well as **advanced AI & robotics engineering roles** in industry.
-
 ---
 
 ## Research Interests
