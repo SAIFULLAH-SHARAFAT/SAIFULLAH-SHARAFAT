@@ -43,7 +43,7 @@ My research emphasizes **practical, data-efficient, and deployable AI**, with a 
 ### 📄 Peer-Reviewed Journal Articles
 
 #### **Towards Practical AI for Agriculture: A Self-Supervised Attention Framework for Spinach Leaf Disease Detection**  
-**PLOS ONE — Accepted (2025)**  
+**PLOS ONE — January(2026)**  
 - Proposed a self-supervised attention-based framework combining CNNs and Vision Transformers  
 - Focused on robustness, generalization, and deployment feasibility  
 - Accepted with **no further scientific revisions**  
@@ -54,16 +54,13 @@ https://github.com/SAIFULLAH-SHARAFAT/A-Self-Supervised-Deep-Learning-Framework-
 ---
 
 #### **An IoT-Enabled AI System for Real-Time Crop Prediction Using Soil and Weather Data**  
-**Smart Agricultural Technology — 2025**  
+**Smart Agricultural Technology — July(2025)**  
 - Designed an end-to-end IoT–ML pipeline for precision agriculture  
 - Integrated soil sensors, weather APIs, and ML/DL models on Raspberry Pi  
 - Emphasized real-time inference and field deployment  
 
 🔗 Code Repository:  
 https://github.com/SAIFULLAH-SHARAFAT/An-IoT-Enabled-AI-System-for-Real-Time-Crop-Prediction-Using-Soil-and-Weather-Data  
-
-> Code repositories are maintained to support **reproducibility** and align with my **Google Scholar publications**.
-
 ---
 
 ## Featured Research Repositories
