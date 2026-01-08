@@ -59,7 +59,7 @@ https://github.com/SAIFULLAH-SHARAFAT/A-Self-Supervised-Deep-Learning-Framework-
 - Emphasized real-time inference and field deployment  
 
 🔗 Code Repository:  
-https://github.com/SAIFULLAH-SHARAFAT/An-IoT-Enabled-AI-System-for-Real-Time-Crop-Prediction-Using-Soil-and-Weather-Data  
+https://github.com/SAIFULLAH-SHARAFAT/An-IoT-Enabled-AI-System-for-Real-Time-Crop-Prediction-Using-Soil-and-Weather-Data
 ---
 
 ## Featured Research Repositories
@@ -117,21 +117,6 @@ North South University *(2024–2025)*
 ### Tools & Platforms
 - Git/GitHub, Linux  
 - MATLAB, LaTeX (Overleaf), Tableau  
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=SAIFULLAH-SHARAFAT&show_icons=true&count_private=true&include_all_commits=true&theme=default&hide_border=true"
-    height="160"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAIFULLAH-SHARAFAT&layout=compact&theme=default&hide_border=true"
-    height="160"
-  />
-</p>
 
 ---
 
