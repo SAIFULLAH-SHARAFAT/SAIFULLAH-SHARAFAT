@@ -2,7 +2,7 @@
   <img src="https://komarev.com/ghpvc/?username=SAIFULLAH-SHARAFAT&color=brightgreen"/>
 </p>
 
-<h1 align="center">Md. Shaifullah Sharafat</h1>
+<h1 align="center">MD Shaifullah Sharafat</h1>
 
 <p align="center">
   <b>AI Researcher | Computer Vision | Self-Supervised Learning | IoT–AI Systems | Robotics Perception</b>
