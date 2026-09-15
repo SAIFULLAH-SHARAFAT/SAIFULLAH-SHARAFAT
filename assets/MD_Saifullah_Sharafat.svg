@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Perception becomes geometry</title>
+  <desc id="desc">An animated science-fiction visualization of an optical sensor transforming signals into LiDAR point clouds, a volumetric mesh, Gaussian splats, hierarchical attention, an edge accelerator, and an embodied pose graph.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02060d"/>
+      <stop offset="0.48" stop-color="#071526"/>
+      <stop offset="1" stop-color="#02050b"/>
+    </linearGradient>
+    <radialGradient id="lens" cx="42%" cy="38%" r="66%">
+      <stop offset="0" stop-color="#d9ffff"/>
+      <stop offset="0.08" stop-color="#44f6ff"/>
+      <stop offset="0.28" stop-color="#087b9d"/>
+      <stop offset="0.57" stop-color="#03273e"/>
+      <stop offset="0.78" stop-color="#020813"/>
+      <stop offset="1" stop-color="#000207"/>
+    </radialGradient>
+    <radialGradient id="core" cx="38%" cy="34%" r="72%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.08" stop-color="#8cffff"/>
+      <stop offset="0.32" stop-color="#00d8ff"/>
+      <stop offset="0.7" stop-color="#3351cc"/>
+      <stop offset="1" stop-color="#0b1030"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4dfaff" stop-opacity="0.06"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6dff9c" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#63758e"/>
+      <stop offset="0.25" stop-color="#1c2c43"/>
+      <stop offset="0.62" stop-color="#081321"/>
+      <stop offset="1" stop-color="#33445c"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#24e7ff"/>
+      <stop offset="0.5" stop-color="#9c7cff"/>
+      <stop offset="1" stop-color="#ff4dc4"/>
+    </linearGradient>
+    <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#29d8ed" stroke-width="0.7" opacity="0.12"/>
+      <circle cx="0" cy="0" r="1.3" fill="#5af8ff" opacity="0.22"/>
+    </pattern>
+    <pattern id="chipGrid" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M14 0H0V14" fill="none" stroke="#59f0ff" stroke-width="0.55" opacity="0.3"/>
+    </pattern>
+    <filter id="cyanGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="greenGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.15  0 0 0 0 1  0 0 0 0 0.52  0 0 0 1 0" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <clipPath id="frameClip"><rect x="1" y="1" width="1598" height="518" rx="31"/></clipPath>
+    <path id="signalPathA" d="M315 245 C520 175 650 185 850 250 S1170 318 1430 214"/>
+    <path id="signalPathB" d="M312 258 C525 308 690 314 868 252 S1160 138 1428 230"/>
+  </defs>
+
+  <style>
+    .dash { stroke-dasharray: 8 12; animation: dash 2.4s linear infinite; }
+    .dash-fast { stroke-dasharray: 3 14; animation: dash 1.1s linear infinite; }
+    .dash-reverse { stroke-dasharray: 6 15; animation: dashBack 2.8s linear infinite; }
+    .flicker { animation: flicker 3.7s steps(1,end) infinite; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.6s ease-in-out infinite; }
+    .breathe { animation: breathe 3.8s ease-in-out infinite; }
+    .float-a { animation: floatA 5.8s ease-in-out infinite; }
+    .float-b { animation: floatB 7.2s ease-in-out infinite; }
+    .scan { animation: scan 4.3s ease-in-out infinite; }
+    .flow { animation: flow 1.8s linear infinite; }
+    .window-a { animation: winA 6s steps(1,end) infinite; }
+    .window-b { animation: winB 6s steps(1,end) infinite; }
+    .arm { transform-box: fill-box; transform-origin: 8% 50%; animation: arm 5.5s ease-in-out infinite; }
+    .forearm { transform-box: fill-box; transform-origin: 8% 50%; animation: forearm 5.5s ease-in-out infinite; }
+    .iris { animation: iris 4s ease-in-out infinite; }
+    .matrix { animation: matrix 8s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -40; } }
+    @keyframes dashBack { to { stroke-dashoffset: 42; } }
+    @keyframes flow { to { stroke-dashoffset: -62; } }
+    @keyframes pulse { 0%,100% { transform: scale(.76); opacity:.36 } 50% { transform: scale(1.2); opacity:1 } }
+    @keyframes breathe { 0%,100% { opacity:.38 } 50% { opacity:1 } }
+    @keyframes flicker { 0%,19%,23%,52%,55%,100% { opacity:.7 } 20%,22%,53%,54% { opacity:.12 } }
+    @keyframes floatA { 0%,100% { transform: translate(0,0) } 50% { transform: translate(7px,-12px) } }
+    @keyframes floatB { 0%,100% { transform: translate(0,0) } 50% { transform: translate(-8px,10px) } }
+    @keyframes scan { 0%,100% { transform: translateY(-108px); opacity:0 } 12%,88% { opacity:.9 } 50% { transform: translateY(110px); opacity:1 } }
+    @keyframes winA { 0%,32% { opacity:1 } 33%,65% { opacity:.15 } 66%,100% { opacity:.45 } }
+    @keyframes winB { 0%,32% { opacity:.18 } 33%,65% { opacity:1 } 66%,100% { opacity:.35 } }
+    @keyframes arm { 0%,100% { transform: rotate(-5deg) } 50% { transform: rotate(8deg) } }
+    @keyframes forearm { 0%,100% { transform: rotate(8deg) } 50% { transform: rotate(-15deg) } }
+    @keyframes iris { 0%,100% { opacity:.65; stroke-width:3 } 50% { opacity:1; stroke-width:6 } }
+    @keyframes matrix { from { transform:translateY(-40px) } to { transform:translateY(90px) } }
+  </style>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1600" height="520" fill="url(#bg)"/>
+    <ellipse cx="240" cy="245" rx="310" ry="255" fill="#004b65" opacity="0.1" filter="url(#softGlow)"/>
+    <ellipse cx="1210" cy="250" rx="450" ry="250" fill="#46226f" opacity="0.07" filter="url(#softGlow)"/>
+    <rect width="1600" height="520" fill="url(#microGrid)"/>
+
+    <!-- distant telemetry / abstract matrix rain -->
+    <g fill="#35ffc0" opacity="0.18" font-family="ui-monospace,Consolas,monospace" font-size="12" class="matrix">
+      <text x="45" y="40">0A 7F 11 C8</text><text x="45" y="62">3D 09 F2 A1</text><text x="45" y="84">01 6C EE 40</text>
+      <text x="610" y="20">11001001</text><text x="610" y="43">GEOM_03</text><text x="610" y="66">10110110</text>
+      <text x="1308" y="44">AF 02 9D 71</text><text x="1308" y="66">7E C4 18 B2</text><text x="1308" y="88">10 11 01 00</text>
+      <text x="1490" y="190">Z+ 18.4</text><text x="1490" y="212">Y- 07.1</text><text x="1490" y="234">X+ 22.8</text>
+    </g>
+
+    <!-- perspective floor -->
+    <g fill="none" stroke="#25d9d3" opacity="0.18">
+      <path d="M0 505L800 272L1600 505"/>
+      <path d="M164 520L800 272L1436 520"/>
+      <path d="M355 520L800 272L1245 520"/>
+      <path d="M525 520L800 272L1075 520"/>
+      <path d="M675 520L800 272L925 520"/>
+      <path d="M0 470H1600M80 431H1520M178 393H1422M292 358H1308M430 324H1170M592 294H1008" class="dash-reverse"/>
+    </g>
+
+    <!-- synthetic optical sensor / rotating aperture -->
+    <g transform="translate(214 247)">
+      <ellipse rx="183" ry="183" fill="#020711" stroke="#24435a" stroke-width="2"/>
+      <ellipse rx="158" ry="158" fill="none" stroke="#35e7ff" stroke-width="2" opacity="0.55" stroke-dasharray="54 20 8 18">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="139" ry="139" fill="none" stroke="#9a7cff" stroke-width="5" opacity="0.4" stroke-dasharray="6 21">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
+      </ellipse>
+      <g opacity="0.72" fill="url(#metal)" stroke="#6bf6ff" stroke-width="1">
+        <path d="M0-133L55-67L28-30L-47-57Z"/><path d="M115-66L64 12L25-5L28-91Z"/>
+        <path d="M115 66L24 87L8 45L81-15Z"/><path d="M0 133L-62 67L-29 29L49 59Z"/>
+        <path d="M-115 66L-64-12L-24 6L-31 93Z"/><path d="M-115-66L-23-88L-8-45L-82 14Z"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/>
+      </g>
+      <ellipse rx="79" ry="79" fill="url(#lens)" stroke="#73fbff" stroke-width="3" filter="url(#cyanGlow)"/>
+      <ellipse rx="48" ry="48" fill="#00050c" stroke="#21dff4" stroke-width="3" class="iris"/>
+      <ellipse rx="20" ry="20" fill="url(#core)" class="pulse"/>
+      <ellipse cx="-24" cy="-28" rx="18" ry="9" fill="#fff" opacity="0.7" transform="rotate(-28)"/>
+      <g fill="none" stroke="#58f4ff" opacity="0.7">
+        <path d="M-205 0H-173M173 0H205M0-205V-173M0 173V205" stroke-width="2"/>
+        <circle r="191" stroke-dasharray="2 17" class="dash-fast"/>
+      </g>
+    </g>
+
+    <!-- camera frustum and LiDAR cone -->
+    <path d="M294 203L895 80L1110 260L895 440L294 289Z" fill="url(#beam)" stroke="#27dffc" stroke-width="1" opacity="0.45"/>
+    <g fill="none" stroke="#42eeff" opacity="0.52" class="dash">
+      <path d="M292 221L1042 132"/><path d="M294 239L1090 205"/><path d="M294 257L1100 279"/><path d="M292 276L1038 386"/>
+    </g>
+    <g fill="#6bfbff" filter="url(#cyanGlow)">
+      <circle r="3"><animateMotion dur="3.4s" repeatCount="indefinite"><mpath href="#signalPathA"/></animateMotion></circle>
+      <circle r="2"><animateMotion dur="4.1s" begin="-1.2s" repeatCount="indefinite"><mpath href="#signalPathB"/></animateMotion></circle>
+      <circle r="2.5"><animateMotion dur="3.8s" begin="-2.4s" repeatCount="indefinite"><mpath href="#signalPathA"/></animateMotion></circle>
+    </g>
+
+    <!-- volumetric terrain mesh -->
+    <g transform="translate(520 118)" fill="none">
+      <path d="M0 225L65 151L126 177L194 78L257 138L322 42L390 112L455 90L515 191L590 224" stroke="#6fffd0" stroke-width="2.2" opacity="0.65"/>
+      <path d="M0 225L65 151L126 177L194 78L257 138L322 42L390 112L455 90L515 191L590 224L508 261L430 239L354 284L275 230L204 270L126 233L50 267Z" fill="#0b5360" opacity="0.13" stroke="#42eff2"/>
+      <g stroke="#31dfbf" stroke-width="1" opacity="0.37">
+        <path d="M50 267L65 151M126 233V177M204 270L194 78M275 230L257 138M354 284L322 42M430 239L390 112M508 261L455 90"/>
+        <path d="M0 225L126 233L275 230L430 239L590 224M50 267L204 270L354 284L508 261"/>
+        <path d="M65 151L204 270M126 177L275 230M194 78L354 284M257 138L430 239M322 42L508 261"/>
+      </g>
+      <g stroke="#61f7ff" opacity="0.33" class="dash-fast">
+        <path d="M15 214Q150 112 288 184T575 205"/><path d="M42 245Q177 171 321 221T548 241"/>
+      </g>
+      <g transform="translate(0 110)" class="scan">
+        <path d="M12 115L312 8L578 115L312 168Z" fill="#41fff2" opacity="0.09"/>
+        <path d="M12 115L312 8L578 115" fill="none" stroke="#7dfff4" stroke-width="2" filter="url(#cyanGlow)"/>
+      </g>
+    </g>
+
+    <!-- point cloud: vegetation / reconstructed surface -->
+    <g fill="#63ff9b" opacity="0.86" filter="url(#greenGlow)">
+      <circle cx="650" cy="323" r="2"/><circle cx="671" cy="302" r="1.7"/><circle cx="690" cy="335" r="2.2"/><circle cx="711" cy="288" r="1.6"/>
+      <circle cx="730" cy="315" r="2.4"/><circle cx="753" cy="279" r="1.8"/><circle cx="775" cy="326" r="1.6"/><circle cx="798" cy="294" r="2.2"/>
+      <circle cx="821" cy="339" r="1.7"/><circle cx="843" cy="269" r="2.3"/><circle cx="866" cy="318" r="1.9"/><circle cx="889" cy="286" r="2.2"/>
+      <circle cx="913" cy="331" r="1.6"/><circle cx="937" cy="277" r="2.4"/><circle cx="959" cy="309" r="1.8"/><circle cx="983" cy="343" r="2.1"/>
+      <circle cx="1007" cy="299" r="2.2"/><circle cx="1028" cy="323" r="1.7"/><circle cx="1052" cy="286" r="2.4"/><circle cx="1075" cy="334" r="1.8"/>
+      <animate attributeName="opacity" values=".4;.95;.55;.86" dur="3.2s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- 3D Gaussian splatting ellipsoids -->
+    <g opacity="0.8">
+      <ellipse cx="602" cy="168" rx="21" ry="8" fill="#26efff" transform="rotate(-28 602 168)" class="float-a"/>
+      <ellipse cx="665" cy="210" rx="13" ry="27" fill="#8475ff" opacity="0.68" transform="rotate(31 665 210)" class="float-b"/>
+      <ellipse cx="741" cy="142" rx="29" ry="10" fill="#31ffaf" opacity="0.65" transform="rotate(14 741 142)" class="float-a"/>
+      <ellipse cx="858" cy="188" rx="18" ry="7" fill="#ff5fce" opacity="0.67" transform="rotate(-20 858 188)" class="float-b"/>
+      <ellipse cx="958" cy="151" rx="24" ry="9" fill="#43efff" opacity="0.62" transform="rotate(35 958 151)" class="float-a"/>
+      <ellipse cx="1037" cy="219" rx="12" ry="25" fill="#77ff9d" opacity="0.68" transform="rotate(-18 1037 219)" class="float-b"/>
+    </g>
+
+    <!-- shifted-window hierarchical attention HUD -->
+    <g transform="translate(1112 52)">
+      <path d="M0 18L22 0H236L258 18V166L238 186H20L0 166Z" fill="#06111e" fill-opacity="0.79" stroke="#4aebff" opacity="0.92"/>
+      <text x="18" y="24" fill="#8df8ff" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="2">HIERARCHICAL ATTENTION</text>
+      <g transform="translate(24 44)" fill="none" stroke="#4beeff" stroke-width="1" opacity="0.52">
+        <rect width="88" height="88" fill="url(#chipGrid)"/><rect x="110" y="10" width="65" height="65" fill="url(#chipGrid)"/>
+        <rect x="185" y="20" width="28" height="28" fill="url(#chipGrid)"/>
+        <path d="M88 44H110M175 43H185" class="dash-fast"/>
+      </g>
+      <rect x="24" y="44" width="44" height="44" fill="#25e8ff" opacity="0.25" stroke="#7fffff" class="window-a"/>
+      <rect x="68" y="88" width="44" height="44" fill="#a17cff" opacity="0.3" stroke="#d5c5ff" class="window-b"/>
+      <rect x="134" y="54" width="32" height="32" fill="#41ffad" opacity="0.25" stroke="#80ffc4" class="window-a"/>
+      <path d="M18 151H222" stroke="url(#violet)" stroke-width="2" class="dash"/>
+      <text x="20" y="171" fill="#718aa0" font-family="ui-monospace,Consolas,monospace" font-size="9">SHIFT // MERGE // ATTEND</text>
+    </g>
+
+    <!-- edge NPU and circuit buses -->
+    <g transform="translate(1120 303)">
+      <g fill="none" stroke="#40ffc0" stroke-width="2" opacity="0.7">
+        <path d="M0 46H44L60 62H92M0 88H52L70 70H92M248 48H300L316 32H362M248 84H300L320 102H362" class="flow" stroke-dasharray="5 13"/>
+        <path d="M128 0V-22H84V-50M210 0V-30H255V-58M133 144V170H92V194M207 144V174H253V202" class="dash"/>
+      </g>
+      <g transform="translate(92 0)">
+        <path d="M18 0H138L156 18V126L138 144H18L0 126V18Z" fill="url(#metal)" stroke="#5bffd0" stroke-width="2"/>
+        <path d="M34 22H122L136 36V108L122 122H34L20 108V36Z" fill="#03151b" stroke="#30dcff"/>
+        <rect x="35" y="37" width="86" height="70" rx="8" fill="url(#chipGrid)"/>
+        <path d="M52 84L70 61L87 83L105 56" fill="none" stroke="url(#violet)" stroke-width="3" class="dash-fast"/>
+        <circle cx="78" cy="72" r="27" fill="none" stroke="#4effcb" opacity="0.5" class="pulse"/>
+        <text x="78" y="96" text-anchor="middle" fill="#b7fff1" font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing="3">NPU</text>
+      </g>
+      <g fill="#67ffd3" filter="url(#greenGlow)">
+        <circle cx="18" cy="46" r="3" class="pulse"/><circle cx="340" cy="102" r="3" class="pulse"/>
+        <circle cx="84" cy="-50" r="3" class="pulse"/><circle cx="253" cy="202" r="3" class="pulse"/>
+      </g>
+    </g>
+
+    <!-- embodied kinematic pose graph / articulated manipulator -->
+    <g transform="translate(1393 213)" fill="none" stroke-linecap="round">
+      <path d="M0 0L52 42L96 8L137 49" stroke="#314359" stroke-width="18" opacity="0.9"/>
+      <g class="arm"><path d="M0 0L52 42" stroke="#5eefff" stroke-width="7"/><g class="forearm"><path d="M52 42L96 8" stroke="#8b79ff" stroke-width="7"/></g></g>
+      <path d="M96 8L137 49" stroke="#55ffae" stroke-width="7"/>
+      <g stroke="#9affef" stroke-width="2">
+        <circle cx="0" cy="0" r="11" fill="#071625"/><circle cx="52" cy="42" r="11" fill="#071625"/>
+        <circle cx="96" cy="8" r="11" fill="#071625"/><circle cx="137" cy="49" r="11" fill="#071625"/>
+      </g>
+      <g stroke="#46ffc3" stroke-width="1.2" opacity="0.6" class="dash">
+        <path d="M0 0Q55-40 96 8Q130 2 137 49"/>
+      </g>
+      <g fill="#5dffce" stroke="none">
+        <circle cx="0" cy="0" r="3" class="pulse"/><circle cx="52" cy="42" r="3" class="pulse"/>
+        <circle cx="96" cy="8" r="3" class="pulse"/><circle cx="137" cy="49" r="3" class="pulse"/>
+      </g>
+    </g>
+
+    <!-- multispectral reflectance curve -->
+    <g transform="translate(380 405)">
+      <path d="M0 60H260M0 0V60" fill="none" stroke="#466177" opacity="0.65"/>
+      <path d="M0 49C35 48 52 45 78 46S115 51 135 43S154 10 176 8S209 19 260 12" fill="none" stroke="#71ff91" stroke-width="3" filter="url(#greenGlow)" class="dash"/>
+      <path d="M0 53C42 52 82 50 122 51S155 46 177 29S222 24 260 22" fill="none" stroke="#2bdff5" stroke-width="1.5" opacity="0.65"/>
+      <text x="0" y="78" fill="#70879b" font-family="ui-monospace,Consolas,monospace" font-size="9" letter-spacing="1">REFLECTANCE // NIR RESPONSE</text>
+      <circle cx="176" cy="8" r="4" fill="#89ff9f" class="pulse"/>
+    </g>
+
+    <!-- top system rail -->
+    <g font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="2">
+      <text x="30" y="28" fill="#6eefff">OPTICAL INPUT</text>
+      <text x="670" y="28" fill="#72ffd0">VOLUMETRIC WORLD MODEL</text>
+      <text x="1388" y="28" fill="#a891ff">EMBODIED OUTPUT</text>
+      <path d="M30 40H1570" stroke="url(#violet)" stroke-width="1" opacity="0.5" class="dash"/>
+    </g>
+
+    <!-- subtle scan flash -->
+    <rect x="-240" y="0" width="160" height="520" fill="#a5ffff" opacity="0.035" transform="skewX(-18)">
+      <animate attributeName="x" values="-240;1780" dur="7.8s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- small creator mark only -->
+    <text x="1562" y="496" text-anchor="end" fill="#557184" opacity="0.7" font-family="ui-monospace,Consolas,monospace" font-size="9" letter-spacing="2">MD SHAIFULLAH SHARAFAT // PERCEPTION SYSTEMS</text>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="518" rx="31" fill="none" stroke="#1e6378" stroke-width="2"/>
+  <path d="M22 70V25Q22 22 25 22H82M1518 22H1575Q1578 22 1578 25V70M22 450V495Q22 498 25 498H82M1518 498H1575Q1578 498 1578 495V450" fill="none" stroke="#76f4ff" stroke-width="1.5" opacity="0.52"/>
+</svg>
