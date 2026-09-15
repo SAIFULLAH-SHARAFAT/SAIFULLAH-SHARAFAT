@@ -1,10 +1,10 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&amp;height=170&amp;color=0:0D1117,50:164E63,100:7C3AED&amp;text=RESEARCH%20%2F%20VISION%20%2F%20SYSTEMS&amp;fontSize=24&amp;fontColor=E2E8F0&amp;animation=fadeIn" alt="Research · Vision · Systems" />
+<img width="100%" src="./assets/profile-hero.svg" alt="Research · Vision · Systems — robust, data-efficient and deployable AI" />
 <h1>MD Shaifullah Sharafat</h1>
 <p><b>Machine Learning Researcher · Computer Vision · Intelligent Sensing</b></p>
 <p><i>Learning useful representations. Building reliable systems.</i></p>
-<img width="650" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=3300&amp;pause=1400&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Self-supervised+vision+and+robust+perception;3D+medical+imaging+and+multimodal+learning;From+sensor+signals+to+real-world+decisions" alt="Self-supervised vision · Medical imaging · Intelligent sensing" />
+<img width="650" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=3300&amp;pause=1400&amp;color=E53935&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Self-supervised+vision+and+robust+perception;3D+medical+imaging+and+multimodal+learning;From+sensor+signals+to+real-world+decisions" alt="Self-supervised vision · Medical imaging · Intelligent sensing" />
 
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Research-0D1117?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=Y1GviSYAAAAJ)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--7757--6950-0D1117?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-7757-6950)
@@ -177,20 +177,11 @@ Recent focused study includes deep learning, mathematical foundations for ML, co
 
 ## GitHub activity
 
-<p align="center"><img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SAIFULLAH-SHARAFAT&amp;bg_color=0D1117&amp;color=94A3B8&amp;line=22D3EE&amp;point=A78BFA&amp;area=true&amp;hide_border=true&amp;custom_title=Research%20in%20motion" alt="Recent public GitHub contribution activity" /></p>
+<p align="center">
+  <img width="57%" src="https://streak-stats.demolab.com?user=SAIFULLAH-SHARAFAT&amp;hide_border=true&amp;background=0D1117&amp;ring=22D3EE&amp;fire=A78BFA&amp;currStreakLabel=22D3EE&amp;sideLabels=94A3B8&amp;dates=64748B&amp;currStreakNum=E2E8F0&amp;sideNums=E2E8F0" alt="Shaifullah's public GitHub contribution streak" />
+</p>
 
-<details>
-<summary><b>＋ More GitHub statistics</b></summary>
-
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=SAIFULLAH-SHARAFAT&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&title_color=16A085&icon_color=22C55E&text_color=64748B" alt="Shaifullah's GitHub statistics" />
-<img width="49%" src="https://streak-stats.demolab.com?user=SAIFULLAH-SHARAFAT&hide_border=true&theme=tokyonight&ring=16A085&fire=22C55E&currStreakLabel=16A085&sideLabels=64748B&dates=64748B&currStreakNum=334155&sideNums=334155" alt="Shaifullah's GitHub contribution streak" />
-
-</div>
-
-</details>
+<p align="center"><sub><i>Contribution history is shown through the currently working streak service; unreliable public stats endpoints have been removed.</i></sub></p>
 
 ## Let’s connect
 
