@@ -4,7 +4,6 @@
 <h1>MD Shaifullah Sharafat</h1>
 <p><b>Machine Learning Researcher · Computer Vision · Intelligent Sensing</b></p>
 <p><i>Perception becomes geometry.</i></p>
-<img width="100%" src="./assets/profile-hero.svg" alt="Research · Vision · Systems — robust, data-efficient and deployable AI" />
 <h1>MD Shaifullah Sharafat</h1>
 <p><b>Machine Learning Researcher · Computer Vision · Intelligent Sensing</b></p>
 <p><i>Learning useful representations. Building reliable systems.</i></p>
