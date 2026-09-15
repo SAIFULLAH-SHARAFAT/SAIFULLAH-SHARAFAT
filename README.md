@@ -146,35 +146,37 @@ Recent focused study includes deep learning, mathematical foundations for ML, co
 
 **Deep learning and machine learning**
 
-- Neural Networks and Deep Learning — DeepLearning.AI, 2026
-- Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization — DeepLearning.AI, 2026
-- Structuring Machine Learning Projects — DeepLearning.AI, 2026
-- Convolutional Neural Networks — DeepLearning.AI, 2026
-- Mathematics for Machine Learning and Data Science — DeepLearning.AI, 2025
-- Supervised Machine Learning: Regression and Classification — Stanford Online, 2024
+- [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/C7E8LSWH13YS) — DeepLearning.AI, 2026
+- [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](https://www.coursera.org/account/accomplishments/certificate/5D40TJ7I73WG) — DeepLearning.AI, 2026
+- [Structuring Machine Learning Projects](https://www.coursera.org/account/accomplishments/certificate/1CMAOV3PMIAQ) — DeepLearning.AI, 2026
+- [Convolutional Neural Networks](https://www.coursera.org/account/accomplishments/certificate/4R2QGVV3GW6A) — DeepLearning.AI, 2026
+- [Mathematics for Machine Learning and Data Science](https://www.coursera.org/account/accomplishments/certificate/5RXMSBZKD1DI) — DeepLearning.AI, 2025
+- [Supervised Machine Learning: Regression and Classification](https://www.coursera.org/account/accomplishments/certificate/KNS9GQDXE2TB) — Stanford Online, 2024
 
 **Programming and data**
 
-- Python for Everybody — University of Michigan, 2026
-- SQL for Data Science — University of California, Davis, 2026
-- Python for Data Science, AI & Development — IBM, 2024
-- HackerRank Python Certificate — HackerRank, 2025
+- [Python for Everybody](https://www.coursera.org/account/accomplishments/certificate/87TWKN4V08NN) — University of Michigan, 2026
+- [SQL for Data Science](https://www.coursera.org/account/accomplishments/certificate/BQRM5124D3B8) — University of California, Davis, 2026
+- [Python for Data Science, AI & Development](https://www.coursera.org/account/accomplishments/certificate/APYU7GMUJDTG) — IBM, 2024
+- [HackerRank Python Certificate](https://www.hackerrank.com/certificates/3bcbdadf4f85) — HackerRank, 2025
 
 **IoT and embedded systems**
 
-- The Raspberry Pi Platform and Python Programming for the Raspberry Pi — University of California, Irvine, 2025
-- The Arduino Platform and C Programming — University of California, Irvine, 2025
-- Interfacing with the Arduino — University of California, Irvine, 2025
-- Introduction to the Internet of Things and Embedded Systems — University of California, Irvine, 2025
-- Getting Started with Azure IoT Hub — Coursera Project Network, 2024
+- [The Raspberry Pi Platform and Python Programming for the Raspberry Pi](https://www.coursera.org/account/accomplishments/certificate/4TCNEF81CCMM) — University of California, Irvine, 2025
+- [The Arduino Platform and C Programming](https://www.coursera.org/account/accomplishments/certificate/DMXZOZRTD5VZ) — University of California, Irvine, 2025
+- [Interfacing with the Arduino](https://www.coursera.org/account/accomplishments/certificate/U0XNDAYUQ1NM) — University of California, Irvine, 2025
+- [Introduction to the Internet of Things and Embedded Systems](https://www.coursera.org/account/accomplishments/certificate/JKYKJFNCL73S) — University of California, Irvine, 2025
+- [Getting Started with Azure IoT Hub](https://www.coursera.org/account/accomplishments/certificate/37M4BPYRRQHD) — Coursera Project Network, 2024
 
 **Research and communication**
 
 - IEEE Authorship and Open Access Symposium — IEEE, 2025
-- Academic English: Writing — University of California, Irvine, 2025
-- Speak English Professionally — Georgia Institute of Technology, 2025
+- [Academic English: Writing](https://www.coursera.org/account/accomplishments/certificate/XV2AX1BOZZ68) — University of California, Irvine, 2025
+- [Speak English Professionally](https://www.coursera.org/account/accomplishments/certificate/W5RF00NSYA5T) — Georgia Institute of Technology, 2025
 
 </details>
+
+
 
 ## GitHub activity
 
