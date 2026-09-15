@@ -1,6 +1,5 @@
 <div align="center">
 
-<<<<<<< HEAD
 <img width="100%" src="./assets/profile-perception-3d.jpg" alt="Perception becomes geometry — optical sensing transforming into a 3D LiDAR reconstruction" />
 <h1>MD Shaifullah Sharafat</h1>
 <p><b>Machine Learning Researcher · Computer Vision · Intelligent Sensing</b></p>
