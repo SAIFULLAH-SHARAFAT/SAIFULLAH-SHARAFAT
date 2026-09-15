@@ -1,11 +1,11 @@
 <div align="center">
 
-<img width="100%" src="./assets/profile-perception-3d-animated.svg" alt="Perception becomes geometry — optical sensing transforming into a 3D LiDAR reconstruction" />
+<img width="100%" src="./assets/MD_Saifullah_Sharafat.svg" alt="Perception becomes geometry" />
 <p><i>Perception becomes geometry.</i></p>
 <h1>MD Shaifullah Sharafat</h1>
 <p><b>Machine Learning Researcher · Computer Vision · Intelligent Sensing</b></p>
 <p><i>Learning useful representations. Building reliable systems.</i></p>
-<img width="650" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=3300&amp;pause=1400&amp;color=E53935&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Self-supervised+vision+and+robust+perception;3D+medical+imaging+and+multimodal+learning;From+sensor+signals+to+real-world+decisions" alt="Self-supervised vision · Medical imaging · Intelligent sensing" />
+<img width="700" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=3300&amp;pause=1400&amp;color=E53935&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Self-supervised+vision+and+robust+perception;3D+medical+imaging+and+multimodal+learning;From+sensor+signals+to+real-world+decisions" alt="Self-supervised vision · Medical imaging · Intelligent sensing" />
 
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Research-0D1117?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=Y1GviSYAAAAJ)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--7757--6950-0D1117?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-7757-6950)
