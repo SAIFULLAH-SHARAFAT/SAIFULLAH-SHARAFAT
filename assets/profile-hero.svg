@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Research, Vision, Systems</title>
+  <desc id="desc">A deep-space research banner with luminous cyan and violet three-dimensional bubbles.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.48" stop-color="#0B1730"/>
+      <stop offset="1" stop-color="#120B2E"/>
+    </linearGradient>
+    <radialGradient id="cyanOrb" cx="32%" cy="24%" r="74%">
+      <stop offset="0" stop-color="#CFFAFE"/>
+      <stop offset="0.13" stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#0E7490"/>
+      <stop offset="1" stop-color="#082F49"/>
+    </radialGradient>
+    <radialGradient id="violetOrb" cx="31%" cy="24%" r="76%">
+      <stop offset="0" stop-color="#EDE9FE"/>
+      <stop offset="0.15" stop-color="#A78BFA"/>
+      <stop offset="0.55" stop-color="#6D28D9"/>
+      <stop offset="1" stop-color="#2E1065"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.035"/>
+    </linearGradient>
+    <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.48" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <filter id="orbShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.13 0 0 0 0 0.83 0 0 0 0 0.93 0 0 0 .42 0" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#94A3B8" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="30" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="30" fill="url(#grid)"/>
+
+  <circle cx="159" cy="62" r="118" fill="#22D3EE" opacity="0.08"/>
+  <circle cx="1084" cy="271" r="155" fill="#8B5CF6" opacity="0.10"/>
+  <circle cx="244" cy="167" r="92" fill="url(#cyanOrb)" opacity="0.96" filter="url(#orbShadow)"/>
+  <ellipse cx="215" cy="139" rx="24" ry="15" fill="#FFFFFF" opacity="0.36" transform="rotate(-28 215 139)"/>
+  <circle cx="958" cy="153" r="112" fill="url(#violetOrb)" opacity="0.94" filter="url(#orbShadow)"/>
+  <ellipse cx="921" cy="113" rx="30" ry="18" fill="#FFFFFF" opacity="0.30" transform="rotate(-31 921 113)"/>
+
+  <rect x="275" y="58" width="650" height="204" rx="44" fill="#020617" opacity="0.54"/>
+  <rect x="276" y="59" width="648" height="202" rx="43" fill="url(#glass)" stroke="#A5F3FC" stroke-opacity="0.27"/>
+  <path d="M318 87 H430" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" opacity="0.82"/>
+  <path d="M770 233 H882" stroke="#A78BFA" stroke-width="3" stroke-linecap="round" opacity="0.82"/>
+
+  <text x="600" y="145" text-anchor="middle" fill="url(#titleGradient)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="37" font-weight="800" letter-spacing="4" filter="url(#softGlow)">RESEARCH / VISION / SYSTEMS</text>
+  <text x="600" y="191" text-anchor="middle" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">ROBUST  •  DATA-EFFICIENT  •  DEPLOYABLE AI</text>
+  <circle cx="568" cy="224" r="3" fill="#22D3EE"/>
+  <rect x="579" y="222.5" width="42" height="3" rx="1.5" fill="url(#titleGradient)"/>
+  <circle cx="632" cy="224" r="3" fill="#A78BFA"/>
+</svg>
