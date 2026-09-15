@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="150%" src="./assets/MD_Saifullah_Sharafat.svg" alt="Perception becomes geometry" />
+<img width="250%" src="./assets/MD_Saifullah_Sharafat.svg" alt="Perception becomes geometry" />
 <p><i>Perception becomes geometry.</i></p>
 <h1>MD Shaifullah Sharafat</h1>
 <p><b>Machine Learning Researcher · Computer Vision · Intelligent Sensing</b></p>
