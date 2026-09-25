@@ -61,7 +61,7 @@ My published work spans **self-supervised visual representation learning** and a
 <summary><b>◷ Manuscript under review — transformer-based vision</b></summary>
 
 
-**Color-Aware and Token-Attentive Swin Transformers for Tea Leaf Disease and Pest Classification**  
+**A Leakage-Audited Evaluation of HSV Fusion and Token Attention for Tea Leaf Disease Recognition**  
 *First-author manuscript · under review*
 
 - Studies color-aware feature fusion and token-level attention for fine-grained disease and pest recognition.
